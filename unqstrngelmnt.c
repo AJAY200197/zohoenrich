@@ -14,12 +14,12 @@ main()
         {
             if(a[i]==b[j])
             {    
-                count++;
+                count=1;
             }
         }
         if(count==0)
         {
-            b[k++]=a[i];
+            b[k]=a[i];k++;
         }
     }
     printf("Output string:%s",b);
