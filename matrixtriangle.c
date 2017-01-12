@@ -8,6 +8,7 @@ int main()
        {
          if((i==j) || (i==1)) 
           {
+            a[i][i]=1;
            a[i][j]=1;
           }
          else 
