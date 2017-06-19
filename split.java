@@ -21,7 +21,9 @@ public class Hello {
 		o = o+ei;
 		v= v+fi;
 	   }
-	   float avg = o/f;
-	   System.out.printf(avg);
+	   float avg;
+	   avg = (float)o/(float)v;
+	   System.out.printf("%.2f ",avg);
+	   System.out.print("kmph");
     }
 }
